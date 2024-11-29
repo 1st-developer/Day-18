@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="links">
+            <div class="logo">
+                <div class="l-img">
+                  <img src="img/icon-white2.png">
+                </div>
+                <div class="logo-text">
+                    <h2>Pomofocus</h2>
+                </div>
+            </div>
+
+            <div class="four">
+                <button class="item"><ion-icon name="bar-chart"></ion-icon> Repot</button>
+                <button class="item"><ion-icon name="settings"></ion-icon> Setting</button>
+                <button class="item"><ion-icon name="person-circle"></ion-icon> Sign In</button>
+                <button class="item one"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg></button>
+            </div>
+
+        </div>
+    </header>
+
+  <div class="container">
+    <div class="three">
+        <button id="bg-one" class="box pomodoro">Pomodoro</button>
+        <button id="bg-two" class="box">Short Break</button>
+        <button id="bg-three" class="box">Long Break</button>
+    </div>
+    <div class="product">
+        <div class="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+          </div>
+          <div class="controls">
+            <button id="pause">Pause</button>
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+          </div>
+    </div>
+  </div>
+
+</body>
+</html>
